@@ -1,21 +1,29 @@
 # Codex Thread Ops Skill
 
-`codex-thread-ops` is a Codex skill for safe thread-structure operations: creating, renaming, forking, archiving, pinning, handing off between threads, and maintaining a project thread index such as `THREADS.md`.
+Prevent wrong-thread changes in Codex.
 
-The skill is intentionally narrow. It should trigger for thread management, not for ordinary phrases such as "read the current thread" or "based on this thread".
+![Codex Thread Ops social preview](assets/social-preview.png)
 
-## What It Helps With
+`codex-thread-ops` is a small Codex skill for safe thread-structure operations: create, rename, fork, archive, pin, hand off, message, select, and maintain project thread indexes such as `THREADS.md`.
 
-- Verify the exact target thread before a mutation: `threadId`, current title, and requested action.
-- Avoid confusing a delegated `source_thread_id` with the active thread.
-- Propose short, clear thread titles before creation or rename.
-- Keep a project thread index updated when local project rules define one.
-- Prefer reversible operations such as archive over deletion.
-- Handle missing or limited thread tools explicitly instead of guessing.
+It is built for people who use many Codex threads per project and want a guardrail before irreversible or confusing thread actions.
 
-## Install
+> Community skill. Not an official OpenAI project.
 
-### With Codex
+## Why It Exists
+
+Thread management is easy to get wrong when several conversations have similar titles or when a handoff contains a `source_thread_id`. This skill makes Codex stop, verify the exact target, and name the action before changing a thread.
+
+## What It Does
+
+- Verifies `threadId`, current title, and requested action before a thread mutation.
+- Avoids treating delegated `source_thread_id` values as the active thread.
+- Proposes short, clear titles before creating or renaming threads.
+- Keeps a project thread index updated when local project rules define one.
+- Prefers reversible operations, such as archive, over deletion.
+- Avoids triggering on ordinary phrases like "read the current thread".
+
+## Quick Start
 
 Ask Codex to install this skill from GitHub:
 
@@ -25,29 +33,46 @@ Use $skill-installer to install RomanovVIII/codex-thread-ops-skill with path cod
 
 Restart Codex after installation so the skill is discovered.
 
-### Manual Install
+## Download
 
-1. Download `codex-thread-ops-skill.zip` from the latest GitHub release.
-2. Extract the archive.
-3. Copy the `codex-thread-ops` folder into your Codex skills directory, commonly:
+Download the ready-to-use ZIP from the latest release:
+
+[Download codex-thread-ops-skill.zip](https://github.com/RomanovVIII/codex-thread-ops-skill/releases/latest/download/codex-thread-ops-skill.zip)
+
+Manual install:
+
+1. Extract the ZIP.
+2. Copy the `codex-thread-ops` folder into the skills directory that your Codex installation scans, commonly:
 
 ```text
 ~/.codex/skills/
 ```
 
-Depending on your Codex setup, the skills directory may differ. Use the directory that your Codex installation scans for user skills.
+3. Restart Codex.
 
-4. Restart Codex.
-
-## Usage
-
-Invoke it directly when you want thread-structure safety:
+## Example Prompts
 
 ```text
 Use $codex-thread-ops to create a new thread for the database migration plan.
 ```
 
-It may also be invoked implicitly when a user clearly asks Codex to create, rename, fork, archive, pin, hand off, or migrate between Codex threads.
+```text
+Use $codex-thread-ops to rename the current thread. Suggest short titles first.
+```
+
+```text
+Use $codex-thread-ops to archive the old deployment thread and update THREADS.md.
+```
+
+## When Not To Use It
+
+Do not use this skill for normal conversation summaries or content work inside a thread:
+
+- "read the current thread"
+- "summarize this thread"
+- "based on this thread, write a plan"
+
+Those are conversation tasks, not thread-structure operations.
 
 ## Repository Layout
 
@@ -58,7 +83,13 @@ codex-thread-ops/
     openai.yaml
 ```
 
-The repository README and license are intentionally outside the skill folder so the installed skill remains small and focused.
+The repository README, license, and preview image live outside the skill folder so the installed skill stays focused.
+
+## Support The Project
+
+If this skill helps you avoid a wrong-thread rename, archive, or handoff, starring the repository helps other Codex users find it.
+
+Issues and pull requests are welcome.
 
 ## License
 
