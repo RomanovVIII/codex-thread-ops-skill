@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+
+# Local editor state
+.vscode/
+.idea/
+
+# Generated release archives
+dist/

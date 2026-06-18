@@ -1,0 +1,7 @@
+interface:
+  display_name: "Codex Thread Ops"
+  short_description: "Safe Codex thread operations"
+  default_prompt: "Use $codex-thread-ops to manage Codex thread creation, rename, fork, archive, and project thread index updates."
+
+policy:
+  allow_implicit_invocation: true
