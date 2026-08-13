@@ -1,3 +1,5 @@
+**English** | [Русский](README.ru.md)
+
 # 🧵 Codex Thread Ops
 
 [![GitHub stars](https://img.shields.io/github/stars/RomanovVIII/codex-thread-ops-skill?style=social)](https://github.com/RomanovVIII/codex-thread-ops-skill/stargazers)
@@ -18,8 +20,6 @@ Codex gets messy fast. Twenty threads later, nobody remembers where anything liv
 `codex-thread-ops` adds a simple safety workflow around thread management: it helps prevent duplicate discussions, unclear thread names, accidental operations on the wrong thread, and lost context across long-running projects.
 
 ⭐ **If this saves you from thread chaos, star the repository.** It helps other Codex users discover the project.
-
-[Русская версия](README.ru.md)
 
 > Community skill. Not an official OpenAI project.
 
