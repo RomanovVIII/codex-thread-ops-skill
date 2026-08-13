@@ -1,22 +1,27 @@
 # Codex Thread Ops Skill
 
-Keep your Codex threads organized before they turn into a forgotten pile.
+[![GitHub stars](https://img.shields.io/github/stars/RomanovVIII/codex-thread-ops-skill?style=social)](https://github.com/RomanovVIII/codex-thread-ops-skill/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+**Keep your Codex threads organized before they turn into a forgotten pile.**
 
 ![Codex Thread Ops social preview](assets/social-preview.png)
 
-`codex-thread-ops` is a community Codex skill for people who work with many Codex threads across projects. It helps you keep a lightweight thread index, avoid duplicate discussions, choose clear thread names, and safely create, rename, fork, archive, pin, or hand off Codex threads.
+`codex-thread-ops` is a community Codex skill for people who work with many Codex threads across projects. It helps prevent duplicate discussions, unclear thread names, accidental operations on the wrong thread, and lost context across long-running projects.
+
+**In short:** it gives Codex a safe workflow to create, rename, fork, archive, pin, hand off, and index project threads.
+
+⭐ **If this skill is useful to you, star the repository.** It helps other Codex users discover the project.
 
 [Русская версия](README.ru.md)
 
 > Community skill. Not an official OpenAI project.
 
-## The Problem
+## Why Use It?
 
-If you use Codex seriously, your thread list grows quickly.
+When you use Codex seriously, the thread list grows quickly. Without a simple system, the same topic gets discussed twice, useful context gets forgotten, and thread names stop being meaningful.
 
-Some threads are active. Some are stale. Some contain useful context you forgot about. Then a new topic appears, and you may open a new thread even though the same topic was already discussed earlier.
-
-The result is duplicated context, unclear titles, forgotten decisions, and a long list of threads that becomes hard to navigate.
+Codex Thread Ops adds a lightweight operating layer around thread management without turning your thread index into another knowledge base.
 
 ## What This Skill Does
 
@@ -104,9 +109,9 @@ The repository README, license, and preview image live outside the skill folder 
 
 ## Support The Project
 
-If this skill helps you avoid duplicate Codex threads or a wrong-thread rename, archive, or handoff, starring the repository helps other Codex users find it.
+If Codex Thread Ops helps you avoid duplicate threads, lost context, or a wrong-thread rename/archive/handoff, **give the repository a ⭐**.
 
-Issues and pull requests are welcome.
+Issues, pull requests, ideas, and feedback are welcome.
 
 ## License
 
