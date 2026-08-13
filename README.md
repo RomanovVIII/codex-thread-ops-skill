@@ -1,27 +1,27 @@
-# Codex Thread Ops Skill
+# 🧵 Codex Thread Ops
 
 [![GitHub stars](https://img.shields.io/github/stars/RomanovVIII/codex-thread-ops-skill?style=social)](https://github.com/RomanovVIII/codex-thread-ops-skill/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**Keep your Codex threads organized before they turn into a forgotten pile.**
+## Stop losing context. Stop creating duplicate threads.
+
+**A lightweight Codex skill that keeps your threads clean, named, indexed, and safe.**
+
+Create. Rename. Fork. Archive. Pin. Handoff. **Without touching the wrong thread.**
 
 ![Codex Thread Ops social preview](assets/social-preview.png)
 
-`codex-thread-ops` is a community Codex skill for people who work with many Codex threads across projects. It helps prevent duplicate discussions, unclear thread names, accidental operations on the wrong thread, and lost context across long-running projects.
+### ⚡ Why people need this
 
-**In short:** it gives Codex a safe workflow to create, rename, fork, archive, pin, hand off, and index project threads.
+Codex gets messy fast. Twenty threads later, nobody remembers where anything lives, which topic was already discussed, or which thread is safe to rename or archive.
 
-⭐ **If this skill is useful to you, star the repository.** It helps other Codex users discover the project.
+`codex-thread-ops` adds a simple safety workflow around thread management: it helps prevent duplicate discussions, unclear thread names, accidental operations on the wrong thread, and lost context across long-running projects.
+
+⭐ **If this saves you from thread chaos, star the repository.** It helps other Codex users discover the project.
 
 [Русская версия](README.ru.md)
 
 > Community skill. Not an official OpenAI project.
-
-## Why Use It?
-
-When you use Codex seriously, the thread list grows quickly. Without a simple system, the same topic gets discussed twice, useful context gets forgotten, and thread names stop being meaningful.
-
-Codex Thread Ops adds a lightweight operating layer around thread management without turning your thread index into another knowledge base.
 
 ## What This Skill Does
 
