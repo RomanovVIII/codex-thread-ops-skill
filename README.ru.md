@@ -1,3 +1,5 @@
+[English](README.md) | **Русский**
+
 # 🧵 Codex Thread Ops Skill
 
 [![GitHub stars](https://img.shields.io/github/stars/RomanovVIII/codex-thread-ops-skill?style=social)](https://github.com/RomanovVIII/codex-thread-ops-skill/stargazers)
@@ -12,8 +14,6 @@
 **Коротко:** skill даёт Codex безопасный порядок для создания, переименования, fork, архивации, закрепления, handoff и ведения индекса проектных тредов.
 
 ⭐ **Если skill оказался полезным — поставьте репозиторию звезду.** Так другим пользователям Codex будет проще его найти.
-
-[English version](README.md)
 
 > Community skill. Не является официальным проектом OpenAI.
 
