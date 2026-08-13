@@ -7,3 +7,23 @@ Thumbs.db
 
 # Generated release archives
 dist/
+
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+credentials*.json
+secrets*.json
